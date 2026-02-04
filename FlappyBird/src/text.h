@@ -8,9 +8,9 @@ struct ScoreText : sf::Font, sf::Text {
 	sf::Text text;
 	
 	ScoreText() {
-		font.loadFromFile("assets/Fonts/Pangolin-Regular.ttf");
+		font.loadFromFile("assets/fonts/Pangolin-Regular.ttf");
 		text.setFont(font);
-		text.setFillColor(sf::Color::Color(0, 0, 0));
+		text.setFillColor(sf::Color(0, 0, 0));
 		text.setPosition(280, 10);
 		text.setString("0");
 	}

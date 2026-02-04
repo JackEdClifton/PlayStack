@@ -2,6 +2,11 @@
 /* modules and libraries */
 #include <chrono>
 #include <thread>
+
+#ifdef __linux__
+#include <cstdlib>
+#endif
+
 #include "times.h"
 
 /* get unix time */
