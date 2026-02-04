@@ -21,7 +21,7 @@ namespace settings {
 	extern bool playMusic;
 
 	extern bool* options[];
-	const char* optionNames[];
+	extern const char* optionNames[];
 }
 
 // user data for a single level/map
