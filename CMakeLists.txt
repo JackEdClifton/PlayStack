@@ -13,4 +13,5 @@ set(SFML_BUILD_TEST_SUITE OFF CACHE BOOL "" FORCE)
 add_subdirectory(sfml)
 
 add_subdirectory(FlappyBird)
+add_subdirectory(FlagNinja)
 
