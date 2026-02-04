@@ -8,7 +8,7 @@ add_executable(FlappyBird
 )
 
 target_include_directories(FlappyBird
-	PRIVATE $(CMAKE_CURRECT_SOURCE_DIR)/src
+	PRIVATE ${CMAKE_CURRECT_SOURCE_DIR}/src
 )
 
 
